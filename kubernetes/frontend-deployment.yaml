@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: compulysis-nginx
-          image: zaibjahan200/compulysis-webapp:latest
+          image: qanatabbas/compulysis:v1
           imagePullPolicy: Always
           command:
             - nginx
